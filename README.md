@@ -17,8 +17,8 @@ See a sample docker-compose.yml block below.
 version: "3.6"                                                                                                          
 services: 
   Tyger2Beta:
-    image: morph1904/tyger2:beta
-    container_name: Tyger2Beta
+    image: wisesiteguy/tyger2:master
+    container_name: Tyger2master
     volumes:
       - /home/user/tyger2beta/data:/apps/Tyger2/data
       - /home/user/tyger2beta/data/certs:/root/.caddy
